@@ -1,0 +1,117 @@
+@media screen and (max-width: 425px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "A A"
+            "B B"
+            "C D"
+            "E E"
+            "F F";
+    }
+    #a {
+        background: rgb(255, 167, 167);
+        grid-area: A;
+    }
+    #b {
+        background: rgb(252, 178, 148);
+        grid-area: B;
+    }
+    #c {
+        background: rgb(254, 254, 200);
+        grid-area: C;
+    }
+    #d {
+        background: rgb(164, 240, 164);
+        grid-area: D;
+    }
+    #e {
+        background: rgb(178, 220, 234);
+        grid-area: E;
+    }
+    #f {
+        background: rgb(180, 114, 180);
+        grid-area: F;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "A A"
+            "B C"
+            "B D"
+            "B E"
+            "F F";
+    }
+    #a {
+        background: rgb(255, 167, 167);
+        grid-area: A;
+    }
+    #b {
+        background: rgb(252, 178, 148);
+        grid-area: B;
+    }
+    #c {
+        background: rgb(254, 254, 200);
+        grid-area: C;
+    }
+    #d {
+        background: rgb(164, 240, 164);
+        grid-area: D;
+    }
+    #e {
+        background: rgb(178, 220, 234);
+        grid-area: E;
+    }
+    #f {
+        background: rgb(180, 114, 180);
+        grid-area: F;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "A A A"
+            "B C D"
+            "B E E"
+            "F F F";
+    }
+    #a {
+        background: rgb(255, 167, 167);
+        grid-area: A;
+    }
+    #b {
+        background: rgb(252, 178, 148);
+        grid-area: B;
+    }
+    #c {
+        background: rgb(254, 254, 200);
+        grid-area: C;
+    }
+    #d {
+        background: rgb(164, 240, 164);
+        grid-area: D;
+    }
+    #e {
+        background: rgb(178, 220, 234);
+        grid-area: E;
+    }
+    #f {
+        background: rgb(180, 114, 180);
+        grid-area: F;
+    }
+}
+
+.container > div {
+    padding: 10px;
+    outline: 2px solid black;
+}
