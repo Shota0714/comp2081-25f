@@ -37,7 +37,7 @@
 			<!-- STEP 13: Remove all numbers from the .col classes, and try targetting device widths (.col-sm, .col-md, .col-lg, .col-xl) -->
 			<!-- STEP 14: Combine device widths and column width settings (col-md-*) -->
 			<!-- STEP 15: Set different column widths for each of the device widths (col-sm-4 col-md-3 col-lg-5 col-xl-6, for example) -->
-				<div class="row">
+				<div class="row g-5">
 					<div class="col-12 col-sm-6 col-md-12 col-lg-3">
 						<h2>Lorem</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit lobortis dui, eu congue neque placerat in. Aliquam placerat porttitor lectus eu porta.</p>
@@ -56,7 +56,7 @@
 					</div>
 				</div><!-- .row -->
 		<!-- STEP 16: Build a second row element to capture the rest of the content inside the <main> -->
-				<div class="row">
+				<div class="row g-5">
 					<div class="col-2">
 						<h2>Amet</h2>
 						<p>Cras sed suscipit nisi. Aenean commodo nunc eget tortor auctor bibendum. Ut posuere arcu velit, vel tincidunt lectus sagittis et.</p>
@@ -68,14 +68,20 @@
 		<!-- STEP 17: Add 3 columns, with 2, 3, and 7 as the spans - the last column will contain the last 3 headings and paragraphs -->
 		<!-- STEP 18: Create 3 rows inside the last column, each with one column -->
 					<div class="col-7">
+						<div class="row">
+							<div class="col-6">
 								<h2>Adipiscing</h2>
 								<p>Sed ac mi ut ante mollis tristique. In sed nisl quis est sollicitudin varius non et velit. Sed turpis nunc, varius vitae iaculis ut, viverra eget neque.</p>
-
+							</div>
+							<div class="col-6">
 								<h2>Elit</h2>
 								<p>Morbi vel ipsum id dolor rutrum lacinia. Praesent ullamcorper vulputate libero a vestibulum. Cras mollis mollis magna, ut mattis lacus convallis vel.</p>
-
+							</div>
+							<div class="col-12">
 								<h2>In Hendrerit</h2>
 								<p>Praesent accumsan, odio quis varius suscipit, nulla ante tincidunt nisl, non interdum quam eros nec nibh. Nulla eget dapibus metus, ac ultricies purus. Vestibulum et tristique felis.</p>
+							</div>
+						</div><!-- .row -->
 					</div><!-- .col-7 -->
 				</div><!-- .row -->
 			</main>
