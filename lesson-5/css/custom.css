@@ -5,6 +5,11 @@
 	padding-top: 0.5rem;
 } */
 
+.carousel-indicators {
+	top: 0;
+	padding-top: 1rem;
+}
+
 /* STEP 13: View the result in the browser, then head back to index.html */
 /* The below class and animation keyframes are used by the JavaScript */
 .zoomit {
