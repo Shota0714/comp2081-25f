@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap');
+
+svg {
+  border: 3px dotted pink;
+  width: 50%;
+  height: auto;
+}
+
+#wedge {
+  transition: all 1s;
+  fill: darkblue;
+}
+
+svg:hover {
+  cursor: pointer;
+}
+
+svg:active #wedge {
+  height: 0;
+}
+
+svg text {
+  font-family: "Science Gothic", sans-serif;
+  fill: grey;
+}
